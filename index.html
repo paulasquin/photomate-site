@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhotoMate.cc — l’IA au service de la photo</title>
+<meta name="description" content="PhotoMate retouchait et notait les photos par intelligence artificielle. Le service est fermé ; cette page en garde la trace.">
+<meta property="og:title" content="PhotoMate.cc — l’IA au service de la photo">
+<meta property="og:description" content="Retouche automatique et notation des photos par IA. Projet archivé.">
+<meta property="og:image" content="https://photomate.cc/img/01-apres.jpg">
+<link rel="icon" href="img/logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="mark" href="#top"><span>Photo</span><em>Mate</em><span>.cc</span></a>
+  <nav>
+    <a href="#ce-que-faisait" data-i18n="nav.what">Le service</a>
+    <a href="#galerie" data-i18n="nav.gallery">Avant / après</a>
+    <a href="#methode" data-i18n="nav.how">Méthode</a>
+    <button class="lang" type="button" aria-label="English / Français">EN</button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="badge" data-i18n="hero.badge">Projet archivé · service fermé</p>
+      <h1 class="wordmark"><span>Photo</span><em>Mate</em><span>.cc</span></h1>
+      <p class="tagline" data-i18n="hero.tagline">L’intelligence artificielle au service de la photo.</p>
+      <p class="lead" data-i18n="hero.lead">PhotoMate retouchait vos photos en quelques secondes et repérait les meilleures selon vos critères. Le service n’est plus proposé : cette page garde la trace de ce qu’il faisait.</p>
+      <a class="cta" href="#galerie" data-i18n="hero.cta">Voir les retouches</a>
+    </div>
+    <figure class="compare hero-compare" data-pair="01" data-auto>
+      <img class="after" src="img/01-apres.jpg" alt="Photo retouchée par PhotoMate" width="1600" height="1067">
+      <div class="before-clip"><img class="before" src="img/01-avant.jpg" alt="Photo d’origine" width="1600" height="1067"></div>
+      <span class="label l-before" data-i18n="label.before">Avant</span>
+      <span class="label l-after" data-i18n="label.after">Après</span>
+      <span class="handle" aria-hidden="true"></span>
+      <input class="slider" type="range" min="0" max="100" value="50" aria-label="Comparer avant et après">
+    </figure>
+  </section>
+
+  <section id="ce-que-faisait" class="what">
+    <h2 data-i18n="what.title">Ce que faisait PhotoMate</h2>
+    <div class="cards">
+      <article class="card">
+        <h3 data-i18n="what.edit.title">Retouche automatique</h3>
+        <p data-i18n="what.edit.text">L’IA réglait la lumière, les tons et les couleurs, puis proposait un recadrage adapté à chaque photo. Les retouches restaient modifiables dans Lightroom, Photoshop ou Bridge.</p>
+        <ul>
+          <li data-i18n="what.edit.l1">Fichiers JPG, DNG et RAW (convertis en DNG)</li>
+          <li data-i18n="what.edit.l2">Choix du format de recadrage</li>
+          <li data-i18n="what.edit.l3">Modèle sur mesure, entraîné sur votre style</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 data-i18n="what.score.title">Notation de la qualité</h3>
+        <p data-i18n="what.score.text">L’IA notait chaque image selon vos consignes, gardait les meilleures et expliquait comment améliorer les autres. On pouvait ainsi trier un reportage entier sans passer chaque photo en revue à la main.</p>
+        <ul>
+          <li data-i18n="what.score.l1">Note détaillée par critère</li>
+          <li data-i18n="what.score.l2">Critères personnalisés</li>
+          <li data-i18n="what.score.l3">Filtrage automatique des séries</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 data-i18n="what.privacy.title">Vos photos restaient les vôtres</h3>
+        <p data-i18n="what.privacy.text">Seule votre adresse e-mail était conservée. Les images n’étaient ni gardées après téléchargement ni utilisées pour entraîner les modèles, sauf demande expresse pour un modèle personnalisé.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="galerie" class="gallery">
+    <h2 data-i18n="gallery.title">Avant / après</h2>
+    <p class="hint" data-i18n="gallery.hint">Faites glisser le curseur sur chaque photo pour comparer l’original et la retouche de PhotoMate.</p>
+    <div class="grid"></div>
+  </section>
+
+  <section id="methode" class="how">
+    <h2 data-i18n="how.title">Comment ça marchait</h2>
+    <ol class="steps">
+      <li><span class="n">1</span><h3 data-i18n="how.s1.t">Préparer les photos</h3><p data-i18n="how.s1.p">En JPG ou en DNG. Les fichiers RAW (.NEF, .CR3…) se convertissaient sans perte avec Adobe DNG Converter.</p></li>
+      <li><span class="n">2</span><h3 data-i18n="how.s2.t">Les envoyer à PhotoMate</h3><p data-i18n="how.s2.p">Dans l’application web, en choisissant le modèle de retouche et le format d’image voulu.</p></li>
+      <li><span class="n">3</span><h3 data-i18n="how.s3.t">Laisser l’IA travailler</h3><p data-i18n="how.s3.p">Tons, couleurs et recadrage calculés pour chaque photo, selon ses particularités.</p></li>
+      <li><span class="n">4</span><h3 data-i18n="how.s4.t">Reprendre la main</h3><p data-i18n="how.s4.p">Téléchargement des images retouchées, puis ouverture dans Lightroom ou Photoshop, où chaque réglage restait modifiable.</p></li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p data-i18n-html="footer.made">PhotoMate a été conçu par <a href="https://me.paulasquin.com">Paul Asquin</a>. Le service est fermé.</p>
+  <p class="small" data-i18n="footer.credits">Photos d’exemple : banque d’images Pexels, retouchées par PhotoMate.</p>
+  <p class="small" data-i18n-html="footer.legal">Éditeur : Paul Asquin (<a href="https://me.paulasquin.com">me.paulasquin.com</a>). Hébergement : GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, États-Unis. Aucun cookie, aucun traceur, aucune donnée collectée.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
